@@ -13,6 +13,11 @@ if excode==0:
 		f=open("cmd_data.txt","w+")
 		f.write(cmd+"\n")
 		f.close()
+	elif value == 1:
+		if value==0:
+		f=open("cmd_data.txt","w+")
+		f.write(cmd+"\n")
+		f.close()
 	else:
 		f=open("cmd_data.txt")
 		f.seek(0)
